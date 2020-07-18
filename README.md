@@ -101,7 +101,7 @@ Website sẽ gồm ba phần chính:
 
 # Hướng dẫn
 
-Các bạn chỉ việc tải về và sử dụng Eclipse hay NetBean để chạy thử.
+Các bạn chỉ việc tải về và sử dụng Eclipse hay NetBeans để chạy thử.
 
 Lưu ý: 
 
