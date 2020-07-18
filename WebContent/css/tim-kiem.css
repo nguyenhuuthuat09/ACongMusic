@@ -1,0 +1,272 @@
+.ket-qua-tim-kiem-bai-hat-title span {
+	font-size: 1.75rem;
+}
+
+.kqtk-loc-ket-qua-title span, #kqtk-lkt-title-style {
+	font-size: 1.1rem;
+}
+
+.kqtk-loc-ket-qua-item span {
+	margin-left: 0.25rem;
+	font-size: 1rem;
+}
+
+.kqtk-bai-hat-title span, .kqtk-nghe-si-title span {
+	font-size: 1.25rem;
+}
+
+
+.kqtk-nghe-si-item .kqtk-nghe-si-item-img img{
+	border-radius: 50%;
+}
+
+.kqtk-bai-hat-item , .kqtk-nghe-si-item {
+	margin-top: 0.75rem;
+}
+
+.kqtk-bai-hat-item-singer-name, .kqtk-nghe-si-item-name {
+	margin-top: 0.3rem;
+}
+
+/* bigger than 120px */
+@media screen and (min-width: 1200px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 11rem !important;
+		height: 11rem !important;
+	}
+}
+
+/* between 992px and 1199.9px */
+
+@media screen and (min-width: 992px) and (max-width: 1025.9px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 11rem;
+		height: 11rem;
+	}
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1100px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 11.5rem;
+		height: 11.5rem;
+	}
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1099.9px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 11.5rem;
+		height: 11.5rem;
+	}
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1150.9px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 12rem;
+		height: 12rem;
+	}
+}
+
+@media screen and (min-width: 1151px) and (max-width: 1199.9px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 12.5rem;
+		height: 12.5rem;
+	}
+}
+
+/* between 768px and 991.9px */
+
+@media screen and (min-width: 885px) and (max-width: 991.9px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 12.5rem;
+		height: 12.5rem;
+	}
+}
+
+@media screen and (min-width: 830px) and (max-width: 884.9px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 14rem;
+		height: 14rem;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 829.9px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 13rem;
+		height: 13rem;
+	}
+}
+
+/* between 576px and 767.9px */
+
+@media screen and (min-width: 650px) and (max-width: 767.9px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 12rem;
+		height: 12rem;
+	}
+}
+
+@media screen and (min-width: 610px) and (max-width: 649.9px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 11rem;
+		height: 11rem;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 609.9px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 10rem;
+		height: 10rem;
+	}
+}
+
+/* smaller than 575.9px */
+
+@media screen and (max-width: 575.9px) {
+	.bang-chu-cai a {
+		margin-right: 0.25rem;
+	}
+
+	.nghe-si-title span {
+	font-size: 1.15rem;
+}
+}
+
+@media screen and (min-width: 465px) and (max-width: 575.9px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 12rem;
+		height: 12rem;
+	}
+}
+
+@media screen and (min-width: 425px) and (max-width: 464.9px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 11rem;
+		height: 11rem;
+	}
+}
+
+@media screen and (min-width: 385px) and (max-width: 424.9px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 10rem;
+		height: 10rem;
+	}
+}
+
+@media screen and (min-width: 345px) and (max-width: 384.9px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 9rem;
+		height: 9rem;
+	}
+}
+
+@media screen and (min-width: 310px) and (max-width: 344.9px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 8rem;
+		height: 8rem;
+	}
+
+	.ket-qua-tim-kiem-bai-hat-title span {
+		font-size: 1.25rem;
+	}
+
+	.kqtk-loc-ket-qua-title span, #kqtk-lkt-title-style {
+		font-size: 1rem;
+	}
+
+	.kqtk-loc-ket-qua-item span {
+		font-size: 0.9rem;
+	}
+
+	.kqtk-bai-hat-title span, .kqtk-nghe-si-title span {
+		font-size: 1rem;
+	}
+
+}
+
+@media screen and (min-width: 290px) and (max-width: 309.9px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 7.5rem;
+		height: 7.5rem;
+	}
+
+	.ket-qua-tim-kiem-bai-hat-title {
+		text-align: center;
+	}
+
+	.ket-qua-tim-kiem-bai-hat-title span {
+		font-size: 1.25rem;
+		text-align: center;
+	}
+
+	.kqtk-loc-ket-qua-title span, #kqtk-lkt-title-style {
+		font-size: 1rem;
+	}
+
+	.kqtk-loc-ket-qua {
+		justify-content: center;
+	}
+
+	.kqtk-bai-hat-item-singer-name {
+		text-align: center;
+	}
+
+	.kqtk-loc-ket-qua-item span {
+		font-size: 0.9rem;
+	}
+
+	.kqtk-bai-hat-title , .kqtk-nghe-si-title {
+		text-align: center;
+	}
+
+	.kqtk-bai-hat-title span, .kqtk-nghe-si-title span {
+		font-size: 1rem;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 289.9px) {
+	.kqtk-bai-hat-item .kqtk-bai-hat-item-img a img, .kqtk-nghe-si-item .kqtk-nghe-si-item-img img {
+		width: 9.5rem;
+		height: 9.5rem;
+	}
+
+	.ket-qua-tim-kiem-bai-hat-title {
+		text-align: center;
+	}
+
+	.ket-qua-tim-kiem-bai-hat-title span {
+		font-size: 1.25rem;
+		text-align: center;
+	}
+
+	.kqtk-loc-ket-qua-title span, #kqtk-lkt-title-style {
+		font-size: 1rem;
+	}
+
+	.kqtk-loc-ket-qua {
+		justify-content: center;
+	}
+
+	.kqtk-bai-hat-item-singer-name {
+		text-align: center;
+	}
+
+	.kqtk-loc-ket-qua-item span {
+		font-size: 0.9rem;
+	}
+
+	.kqtk-bai-hat-title , .kqtk-nghe-si-title {
+		text-align: center;
+	}
+
+	.kqtk-bai-hat-title span, .kqtk-nghe-si-title span {
+		font-size: 1rem;
+		text-align: center;
+	}
+}
+
+
+
+
+
+

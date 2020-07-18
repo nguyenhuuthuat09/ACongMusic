@@ -1,0 +1,569 @@
+
+.nghe-si-profile-thong-tin-main .nav-tabs {
+	border-bottom: none;
+}
+
+#ngheSitieu-suInfoTab #thong-tin-tab, #tieu-su-tab {
+	color: #2c3237;
+	text-decoration: none;
+	padding-bottom: 2px;
+}
+
+#ngheSitieu-suInfoTab .active {
+	border-bottom: 1.5px solid #4d6684;
+}
+
+.nghe-si-profile-thong-tin {
+	background-color: #f0f2f4;
+	border-radius: 1rem;
+	padding: 1rem 1.5rem;
+}
+
+.nghe-si-profile-thong-tin-img img {
+	border-radius: 5%;
+}
+
+#thong-tin-tab, #tieu-su-tab {
+	font-size: 1.25rem;
+}
+
+.nghe-si-profile-bai-hat-top-item-name a, .nghe-si-profile-bai-hat-new-name a {
+	color: #2d3034;
+	text-decoration: none;
+}
+
+.nghe-si-profile-bai-hat-top-item-name a:hover, .nghe-si-profile-bai-hat-new-name a:hover {
+	color: #208c67;
+}
+
+.nghe-si-profile-bai-hat-top-item-singer a, .nghe-si-profile-bai-hat-new-singer a {
+	color: #666666;
+	text-decoration: none;
+}
+
+.nghe-si-profile-bai-hat-top-title span, .nghe-si-profile-bai-hat-new-title span {
+	padding-bottom: 0.15rem;
+	border-bottom: 1px solid #cbcbcb;
+}
+
+.nghe-si-profile-bai-hat-top-item {
+	border-bottom: 1px solid #efefef;
+}
+
+#thong-tin span {
+	line-height: 1.75rem;
+}
+
+.nghe-si-profile-fan button:focus {
+	box-shadow: none;
+}
+
+.nghe-si-profile-fan button.pressed {
+	color: #db3340 !important;
+}
+
+
+/* if song's name is too long, auto shorten it and add ... to the end.*/
+.nghe-si-profile-bai-hat-new-name {
+	white-space: nowrap !important; 
+	width: 10.1rem !important; 
+	overflow: hidden !important;
+	text-overflow: ellipsis !important; 
+}
+
+
+/** shorten tieu su */
+.shortent-text p.collapse:not(.show) {
+	height: 11rem !important;
+	overflow: hidden;
+  
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;  
+}
+
+.shortent-text p.collapsing {
+	min-height: 11rem !important;
+}
+
+.shortent-text a {
+	color: #4a76b8;
+	text-decoration: none;
+}
+
+.shortent-text a.collapsed:after  {
+	content: '+ Show more';
+}
+
+.shortent-text a:not(.collapsed):after {
+	content: '- Show less';
+}
+
+
+/* when scree is bigger than 1200px */
+@media screen and (min-width: 1200px) {
+	.nghe-si-profile-thong-tin-img img {
+		width: 15.25rem;
+		height: 15.25rem;
+	}
+
+	.nghe-si-profile-bai-hat-new-item-img img {
+		width: 10rem;
+		height: 10rem;
+	}
+
+	.nghe-si-profile-bai-hat-top {
+		border-right: 1.75px solid #f2f2f2;
+
+		position: relative;
+		width: 100%;
+		min-height: 1px;
+		padding-right: 15px;
+	 	padding-left: 15px;
+
+	 	-ms-flex: 0 0 22.5%;
+		flex: 0 0 22.5%;
+		max-width: 22.5%;
+	}
+}
+
+/* when scree is between 992px and 1199.9px */
+@media screen and (min-width: 1150px) and (max-width: 1199.9px) {
+	.nghe-si-profile-thong-tin-img img {
+		width: 15rem;
+		height: 15rem;
+	}
+
+	.nghe-si-profile-bai-hat-new-item-img img {
+		width: 9.5rem;
+		height: 9.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-top {
+		border-right: 1.75px solid #f2f2f2;
+
+		position: relative;
+		width: 100%;
+		min-height: 1px;
+		padding-right: 15px;
+	 	padding-left: 15px;
+
+	 	-ms-flex: 0 0 22.5%;
+		flex: 0 0 22.5%;
+		max-width: 22.5%;
+	}
+}
+
+@media screen and (min-width: 1090px) and (max-width: 1149.9px) {
+	.nghe-si-profile-thong-tin-img img {
+		width: 15rem;
+		height: 15rem;
+	}
+
+	.nghe-si-profile-bai-hat-new-item-img img {
+		width: 9rem;
+		height: 9rem;
+	}
+
+	.nghe-si-profile-bai-hat-top {
+		border-right: 1.75px solid #f2f2f2;
+
+		position: relative;
+		width: 100%;
+		min-height: 1px;
+		padding-right: 15px;
+	 	padding-left: 15px;
+
+	 	-ms-flex: 0 0 22.5%;
+		flex: 0 0 23.9%;
+		max-width: 23.9%;
+	}
+}
+
+@media screen and (min-width: 1030px) and (max-width: 1089.9px) {
+	.nghe-si-profile-thong-tin-img img {
+		width: 15rem;
+		height: 15rem;
+	}
+
+	.nghe-si-profile-bai-hat-new-item-img img {
+		width: 8rem;
+		height: 8rem;
+	}
+
+	.nghe-si-profile-bai-hat-top {
+		border-right: 1.75px solid #f2f2f2;
+
+		position: relative;
+		width: 100%;
+		min-height: 1px;
+		padding-right: 15px;
+	 	padding-left: 15px;
+
+	 	-ms-flex: 0 0 22.5%;
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1029.9px) {
+	.nghe-si-profile-thong-tin-img img {
+		width: 15rem;
+		height: 15rem;
+	}
+
+	.nghe-si-profile-bai-hat-new-item-img img {
+		width: 11.5rem;
+		height: 11.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-top {
+		border-right: 1.75px solid #f2f2f2;
+
+		position: relative;
+		width: 100%;
+		min-height: 1px;
+		padding-right: 15px;
+	 	padding-left: 15px;
+
+	 	-ms-flex: 0 0 22.5%;
+		flex: 0 0 30%;
+		max-width: 30%;
+	}
+
+	.nghe-si-profile-bai-hat-new {
+
+	 	-ms-flex: 0 0 70% !important;
+		flex: 0 0 70% !important;
+		max-width: 70% !important;
+	}
+}
+
+/* when scree is between 768px and 991.9px */
+@media screen and (min-width: 768px) and (max-width: 898.9px) {
+	.nghe-si-profile-thong-tin-img img {
+		width: 15rem;
+		height: 15rem;
+	}
+
+	.nghe-si-profile-bai-hat-new-item-img img {
+		width: 11rem;
+		height: 11rem;
+	}
+
+	.nghe-si-profile-bai-hat-top {
+		border-bottom:  1px solid #efefef;
+	}
+
+	.nghe-si-profile-bai-hat-top-item {
+		border-bottom: none;
+	}
+
+	.nghe-si-profile-bai-hat-new-container {
+		margin-right: 0.25rem;
+	}
+}
+
+@media screen and (min-width: 899px) and (max-width: 991.9px) {
+	.nghe-si-profile-thong-tin-img img {
+		width: 15rem;
+		height: 15rem;
+	}
+
+	.nghe-si-profile-bai-hat-new-item-img img {
+		width: 10.5rem;
+		height: 10.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-top {
+		border-bottom:  1px solid #efefef;
+	}
+
+	.nghe-si-profile-bai-hat-top-item {
+		border-bottom: none;
+	}
+
+	.nghe-si-profile-bai-hat-new-container {
+		margin-right: 0.25rem;
+	}
+}
+
+
+/* when scree is between 576px and 767.9px */
+@media screen and (min-width: 576px) and (max-width: 722.9px) {
+	.nghe-si-profile-thong-tin-img img {
+		width: 12.5rem;
+		height: 12.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-new-item-img img {
+		width: 11rem;
+		height: 11rem;
+	}
+
+	#thong-tin span {
+		line-height: 1.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-top {
+		border-bottom:  1px solid #efefef;
+	}
+
+	.nghe-si-profile-bai-hat-top-item {
+		border-bottom: none;
+	}
+
+	.nghe-si-profile-bai-hat-new-container {
+		margin-right: 0.25rem;
+	}
+}
+
+@media screen and (min-width: 723px) and (max-width: 767.9px) {
+	.nghe-si-profile-thong-tin-img img {
+		width: 12.5rem;
+		height: 12.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-new-item-img img {
+		width: 10.5rem;
+		height: 10.5rem;
+	}
+
+	#thong-tin span {
+		line-height: 1.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-top {
+		border-bottom:  1px solid #efefef;
+	}
+
+	.nghe-si-profile-bai-hat-top-item {
+		border-bottom: none;
+	}
+
+	.nghe-si-profile-bai-hat-new-container {
+		margin-right: 0.25rem;
+	}
+}
+
+/* when scree is smaller than 575.9px */
+@media screen and (max-width: 575.9px) {
+
+	.nghe-si-profile-bai-hat-top {
+		border-bottom: 0px solid #fff !important;
+	}
+
+	.nghe-si-profile-bai-hat-top-item {
+		border-bottom: 1px solid #efefef !important;
+	}
+
+	.nghe-si-profile-bai-hat {
+		display: -ms-flexbox !important;
+		display:flex !important;
+		flex-flow: column !important;
+	}
+
+	.nghe-si-profile-bai-hat-top {
+		-ms-flex-order: 3 !important;
+		order: 3 !important;
+	}
+
+	.nghe-si-profile-bai-hat-new {
+		-ms-flex-order: 2 !important;
+		order: 2 !important;
+	}
+}
+
+
+@media screen and (min-width: 540px) and (max-width: 575.9px) {
+	.nghe-si-profile-thong-tin-img img {
+		width: 12.5rem;
+		height: 12.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-new-item-img img {
+		width: 10rem;
+		height: 10rem;
+	}
+
+	.nghe-si-profile-thong-tin-main {
+		margin-top: 0.5rem;
+	}
+
+
+
+	#thong-tin span {
+		line-height: 1.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-top {
+		border-bottom:  1px solid #efefef;
+	}
+
+	.nghe-si-profile-bai-hat-top-item {
+		border-bottom: none;
+	}
+
+	.nghe-si-profile-bai-hat-new-container {
+		margin-right: 0.1rem;
+	}
+}
+
+@media screen and (min-width: 490px) and (max-width: 539.9px) {
+	.nghe-si-profile-thong-tin-img img {
+		width: 12.5rem;
+		height: 12.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-new-item-img img {
+		width: 9rem;
+		height: 9rem;
+	}
+
+	.nghe-si-profile-thong-tin-main {
+		margin-top: 0.5rem;
+	}
+
+
+
+	#thong-tin span {
+		line-height: 1.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-top {
+		border-bottom:  1px solid #efefef;
+	}
+
+	.nghe-si-profile-bai-hat-top-item {
+		border-bottom: none;
+	}
+
+	.nghe-si-profile-bai-hat-new-container {
+		margin-right: 0.1rem;
+	}
+}
+
+@media screen and (min-width: 449px) and (max-width: 489.9px) {
+	.nghe-si-profile-thong-tin-img img {
+		width: 12.5rem;
+		height: 12.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-new-item-img img {
+		width: 8rem;
+		height: 8rem;
+	}
+
+	.nghe-si-profile-thong-tin-main {
+		margin-top: 0.5rem;
+	}
+
+
+
+	#thong-tin span {
+		line-height: 1.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-top {
+		border-bottom:  1px solid #efefef;
+	}
+
+	.nghe-si-profile-bai-hat-top-item {
+		border-bottom: none;
+	}
+
+	.nghe-si-profile-bai-hat-new-container {
+		margin-left: 0.1rem;
+	}
+}
+
+@media screen and (min-width: 360px) and (max-width: 448.9px) {
+	.nghe-si-profile-thong-tin-img img {
+		width: 12.5rem;
+		height: 12.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-new-item-img img {
+		width: 10rem;
+		height: 10rem;
+	}
+
+	.nghe-si-profile-thong-tin-main {
+		margin-top: 0.5rem;
+	}
+
+
+
+	#thong-tin span {
+		line-height: 1.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-top {
+		border-bottom:  1px solid #efefef;
+	}
+
+	.nghe-si-profile-bai-hat-top-item {
+		border-bottom: none;
+	}
+
+}
+
+@media screen and (min-width: 310px) and (max-width: 359.9px) {
+	.nghe-si-profile-thong-tin-img img {
+		width: 12.5rem;
+		height: 12.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-new-item-img img {
+		width: 9rem;
+		height: 9rem;
+	}
+
+	.nghe-si-profile-thong-tin-main {
+		margin-top: 0.5rem;
+	}
+
+
+
+	#thong-tin span {
+		line-height: 1.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-top {
+		border-bottom:  1px solid #efefef;
+	}
+
+	.nghe-si-profile-bai-hat-top-item {
+		border-bottom: none;
+	}
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 309.9px) {
+	.nghe-si-profile-thong-tin-img img {
+		width: 11rem;
+		height: 11rem;
+	}
+
+	.nghe-si-profile-bai-hat-new-item-img img {
+		width: 8rem;
+		height: 8rem;
+	}
+
+	.nghe-si-profile-thong-tin-main {
+		margin-top: 0.5rem;
+	}
+
+	#thong-tin span {
+		line-height: 1.5rem;
+	}
+
+	.nghe-si-profile-bai-hat-top {
+		border-bottom:  1px solid #efefef;
+	}
+
+	.nghe-si-profile-bai-hat-top-item {
+		border-bottom: none;
+	}
+
+}

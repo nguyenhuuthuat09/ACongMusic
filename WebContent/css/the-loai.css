@@ -1,0 +1,925 @@
+.bai-hat-moi a {
+	text-decoration: none;
+}
+
+.bai-hat-moi-main a {
+	text-decoration: none;
+}
+
+.bhm-related-bxh-top-1-rank span {
+	color: #ff0000;
+	font-size: 1.5rem;
+}
+
+.bhm-related-bxh-top-1, .bhm-related-bxh-item {
+	border-bottom: 1px solid #cbcbcb;
+}
+
+@media screen and (min-width: 768px) {
+	.bhm-related-bxh-item .bhm-related-bxh-item-rank span {
+		display: inline-block;
+		font-size: 1.2rem;
+		line-height: 2.6rem;
+		width: 1.25rem !important;
+	}
+}
+
+.bhm-related-bxh-item .bhm-related-bxh-item-rank span {
+	display: inline-block;
+	font-size: 1.2rem;
+	line-height: 2.6rem;
+	width: 1.25rem !important;
+}
+
+
+.bai-hat-moi-item-name a {
+	color: #2d3034;
+}
+
+.bai-hat-moi-item-name a:hover {
+	color: #3a9ad9;
+}
+
+.bai-hat-moi-item-singer a {
+	color: #666666;
+}
+
+.bai-hai-moi-related .bhm-related-bxh-top-1-name a, .bai-hai-moi-related .bhm-related-bxh-item-name a {
+	color: #2d3034; 
+}
+
+.bai-hai-moi-related .bhm-related-bxh-top-1-name a:hover,
+.bai-hai-moi-related .bhm-related-bxh-item-name a:hover {
+	color: #3a9ad9;
+}
+
+.bai-hai-moi-related .bhm-related-bxh-top-1-singer a,
+.bai-hai-moi-related .bhm-related-bxh-item-singer a {
+	color: #666666; 
+}
+
+#bhm-tl-ht-active {
+	font-weight: bold !important;
+	color: #f5512b !important;
+}
+
+.bai-hat-moi-the-loai-hien-tai a:hover {
+	color: #f5512b !important;
+}
+
+.bhm-tl-khac-quoc-gia span {
+	color: #354458;
+}
+
+.bhm-tl-khac-quoc-gia-item span a {
+	color: #1675dc;
+}
+
+.bhm-related-bxh-item-view span {
+	font-size: 0.89rem;
+}
+
+.bhm-related-bxh-item-view {
+	color: #f07818;
+}
+
+@media screen and (min-width: 1200px) {
+	.bai-hat-moi-the-loai-container {
+		width: 52.5rem;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+	.bai-hat-moi-main-container {
+		margin-left: 3rem;
+		width: 53.5rem;
+	}
+
+	.bhm-related-bxh-top-1-name {
+		font-size: 0.95rem;
+	}
+
+	.bhm-related-bxh-top-1-info {
+		margin-top: -0.55rem !important;
+	}
+
+	#collapseBhmTheLoaiKhac {
+		margin-left: 2.85rem !important;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1229.9px) {
+	.bai-hat-moi-main-container {
+		margin-left: 1.8rem;
+	}
+}
+
+@media screen and (min-width: 1135px) and (max-width: 1199.9px) {
+	.bai-hat-moi-the-loai-container {
+		width: 51rem;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+	.bai-hat-moi-main-container {
+		margin-left: 1.25rem;
+		width: 52rem;
+	}
+
+	.bhm-related-bxh-top-1-name {
+		font-size: 0.95rem;
+	}
+
+	.hm-related-bxh-top-1-info {
+		margin-top: -0.55rem;
+	}
+
+	.bhm-related-bxh-top-1-info {
+		margin-top: -0.55rem !important;
+	}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1019.9px) {
+	.bai-hat-moi-the-loai-container {
+		width: 43rem;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+	.bai-hat-moi-main-container {
+		margin-left: 1.1rem;
+		width: 44rem;
+	}
+
+	.bhm-related-bxh-top-1-info {
+		margin-top: -0.41rem !important;
+	}
+
+	.bhm-related-bxh-top-1-singer {
+		margin-top: 0.15rem !important;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 0.75rem !important;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 10rem;
+		height: 10rem;
+	}
+
+	.bhm-related-bxh-top-1-img img {
+		width: 6rem;
+		height: 6rem;
+	}
+
+	.bhm-related-bxh-top-1-name {
+		font-size: 0.95rem;
+	}
+
+	.bhm-related-bxh-top-1-rank span {
+		font-size: 1.2rem;
+	}
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1019.9px) {
+	.bai-hat-moi-main-container {
+		margin-left: 1.5rem !important;
+		margin-right: 0.5rem;
+	}
+	
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1049.9px) {
+
+	.bai-hat-moi-the-loai-container {
+		width: 40.1rem;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+	.bai-hat-moi-main-container {
+		margin-left: 2.5rem;
+		width: 42rem;
+	}
+
+	.bhm-related-bxh-top-1-info {
+		margin-top: -0.41rem !important;
+	}
+
+	.bhm-related-bxh-top-1-singer {
+		margin-top: 0.15rem !important;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 1.5rem !important;
+	}
+
+
+	.bhm-related-bxh-top-1-name {
+		font-size: 0.95rem;
+	}
+
+	.bhm-related-bxh-top-1-rank span {
+		font-size: 1.2rem;
+	}
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1134.9px) {
+	.bai-hat-moi-the-loai-container {
+		width: 46.1rem;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+	.bai-hat-moi-main-container {
+		margin-left: 1.5rem;
+		width: 47.5rem;
+	}
+
+	.bhm-related-bxh-top-1-info {
+		margin-top: -0.41rem !important;
+	}
+
+	.bhm-related-bxh-top-1-singer {
+		margin-top: 0.15rem !important;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 0.8rem !important;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 10.75rem;
+		height: 10.75rem;
+	}
+
+	.bhm-related-bxh-top-1-img img {
+		width: 6rem;
+		height: 6rem;
+	}
+
+	.bhm-related-bxh-top-1-name {
+		font-size: 0.95rem;
+	}
+
+	.bhm-related-bxh-top-1-rank span {
+		font-size: 1.2rem;
+	}
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1134.9px) {
+	.bai-hat-moi-the-loai-container {
+		width: 48.3rem;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+	.bai-hat-moi-main-container {
+		margin-left: 2rem;
+		width: 50rem;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 1.5rem !important;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.9px) {
+	.bai-hat-moi-the-loai-container {
+		width: 29rem;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+	.bai-hat-moi-main-container {
+		margin-left: 1.1rem;
+		width: 30rem;
+	}
+
+	.bai-hai-moi-related {
+		margin-top: -0.25rem !important;
+	}
+
+	.bai-hai-moi-related span {
+		font-size: 1.1rem !important;
+	}
+
+	.bhm-related-bxh-top-1-info {
+		margin-top: -0.3rem !important;
+	}
+
+	.bhm-related-bxh-top-1-singer {
+		margin-top: 0.1rem !important;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 0.75rem !important;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 9rem;
+		height: 9rem;
+	}
+
+	.bhm-related-bxh-top-1-img img {
+		width: 5.8rem;
+		height: 5.8rem;
+	}
+
+	.bhm-related-bxh-top-1-name {
+		font-size: 0.95rem;
+	}
+
+	.bhm-related-bxh-top-1-rank span {
+		font-size: 1.2rem;
+	}
+
+	.bhm-related-bxh-top-1-info {
+		margin-left: 0.3rem;
+	}
+
+	.bhm-related-bxh-item-view span {
+		font-size: 0.9rem !important;
+	}
+
+	.bhm-related-bxh-item-rank {
+		margin-right: 0.5rem !important;
+	}
+
+	.bai-hat-moi-the-loai-khac-list {
+		display: flex;
+		justify-content: space-around;
+		margin-top: 1rem;
+	}
+
+	.bhm-tl-khac-quoc-gia-item {
+		margin-top: 0.75rem;
+		width: auto !important;
+	}
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 799.9px) {
+	.bai-hat-moi {
+		justify-content: space-around;
+	}
+
+	.bai-hai-moi-related {
+		margin-right: 0.75rem;
+	}
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 849.9px) {
+	.bai-hat-moi-the-loai-container {
+		width: 29.5rem;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+	.bai-hat-moi-main-container {
+		margin-left: 1.75rem;
+		width: 31rem;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 1rem !important;
+	}
+}
+
+@media screen and (min-width: 850px) and (max-width: 899.9px) {
+	.bai-hat-moi {
+		justify-content: space-around;
+	}
+
+	.bai-hat-moi-the-loai-container {
+		width: 35rem;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+	.bai-hat-moi-main-container {
+		margin-left: 1rem;
+		width: 37rem;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 8rem;
+		height: 8rem;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 0.5rem !important;
+	}
+
+	.bai-hai-moi-related {
+		margin-right: 1rem !important;
+	}
+
+	.bhm-related-bxh-top-1-view {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 900px) and (max-width: 929.9px) {
+	.bai-hat-moi-the-loai-container {
+		width: 38.3rem;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+	.bai-hat-moi-main-container {
+		margin-left: 1rem;
+		width: 39.5rem;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 9rem;
+		height: 9rem;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 0.5rem !important;
+	}
+}
+
+@media screen and (min-width: 930px) and (max-width: 991.9px) {
+
+	.bai-hat-moi {
+		justify-content: space-around;
+	}
+
+	.bai-hat-moi-the-loai-container {
+		width: 39rem;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+	.bai-hat-moi-main-container {
+		margin-left: 1rem;
+		width: 40rem;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 9rem;
+		height: 9rem;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 0.75rem !important;
+	}
+
+	.bai-hai-moi-related {
+		margin-right: 1.5rem !important;
+	}
+}
+
+
+@media screen and (min-width: 741px) and (max-width: 767.9px) {
+	.bai-hat-moi-main-container {
+		margin-left: 1.5rem;
+		margin-right: 1rem;
+	}
+
+	.bai-hat-moi-the-loai-container {
+		width: 43rem;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 10rem;
+		height: 10rem;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 0.75rem !important;
+	}
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 740.9px) {
+
+
+	.bai-hat-moi-main-container {
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+
+	.bai-hat-moi-the-loai-container {
+		width: 41.7rem;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 9.5rem;
+		height: 9.5rem;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 0.75rem !important;
+	}
+	
+}
+
+@media screen and (min-width: 671px) and (max-width: 699.9px) {
+
+
+	.bai-hat-moi-main-container {
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+
+	.bai-hat-moi-the-loai-container {
+		width: 39.2rem;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 9rem;
+		height: 9rem;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 0.8rem !important;
+	}
+	
+}
+
+@media screen and (min-width: 636px) and (max-width: 670.9px) {
+
+	.bai-hat-moi-main-container {
+		margin-left: 1rem !important;
+		margin-right: 1rem !important;
+	}
+
+	.bai-hat-moi-the-loai-container {
+		width: 37rem;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 8.5rem;
+		height: 8.5rem;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 0.75rem !important;
+	}
+	
+}
+
+@media screen and (min-width: 576px) and (max-width: 635.9px) {
+	.bai-hat-moi-main-container {
+		margin-left: 1.5rem !important;
+		margin-right: 1rem !important;
+	}
+
+	.bai-hat-moi-the-loai-container {
+		width: 32.5rem;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 10rem;
+		height: 10rem;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 1rem !important;
+	}
+	
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.9px) {
+	.bhm-related-bxh-container {
+		margin-left: 0.3rem;
+		margin-right: 0.3rem;
+		margin-top: 1rem;
+	}
+
+	.bhm-related-bxh-title span {
+		color: #dc403b;
+	}
+
+	.bhm-related-bxh-item {
+		margin-top: 0.75rem;
+	}
+
+	.bhm-related-bxh-title {
+		margin-left: 0.6rem;
+	}
+
+	.bhm-related-bxh-item-rank {
+		line-height: 1.5rem !important;
+		margin-right: 0.5rem;
+	}
+
+	.bhm-related-bxh-item-view {
+		line-height: 1.5rem !important;
+		margin-right: 1rem;
+	}
+
+	.bhm-related-bxh-item-view {
+		line-height: 4rem !important;
+	}
+
+	.bhm-related-bxh-item {
+		margin-top: 0rem;
+	}
+
+	.bhm-tl-khac-item, .bhm-tl-khac-quoc-gia-list, .bhm-tl-khac-quoc-gia-item {
+		display: flex;
+	}
+
+	.bai-hat-moi-the-loai-khac-list {
+		margin-top: 1rem;
+	}
+
+	.bhm-tl-khac-item {
+		margin-bottom: 0.75rem;
+	}
+
+	.bai-hat-moi-the-loai-hien-tai a {
+		margin-right: 0.5rem;
+	}
+}
+
+@media screen and (min-width: 360px) and (max-width: 575.9px) {
+
+	.bai-hat-moi-the-loai-hien-tai a {
+		margin-right: 0.5rem;
+	}
+
+	.bhm-tl-khac-item, .bhm-tl-khac-quoc-gia-list, .bhm-tl-khac-quoc-gia-item {
+		display: flex;
+		
+	}
+
+	.bhm-tl-khac-quoc-gia-item {
+		width: auto !important;
+		margin-right: 0.75rem;
+	}
+
+	.bhm-tl-khac-item {
+		justify-content: space-around;
+	}
+
+	.bhm-tl-khac-quoc-gia {
+		display: none;
+	}
+
+	.bai-hat-moi-the-loai-khac-list {
+		margin-top: 1rem;
+	}
+
+	.bhm-tl-khac-item {
+		margin-bottom: 0.75rem;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 359px) {
+
+	.bhm-tl-khac-quoc-gia {
+		display: none;
+	}
+
+	.bhm-tl-khac-quoc-gia-item {
+		width: auto !important;
+		margin-top: 0.5rem;
+	}
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 575.9px) {
+	.bai-hat-moi-main-container {
+		text-align: center;
+		
+	}
+
+	.bai-hat-moi-list {
+		margin-top: 1rem;
+	}
+
+
+	#bhm-the-loai-khac-collapese {
+		margin-top: 0.5rem;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 9rem;
+		height: 9rem;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 1rem !important;
+		margin-top: 0.75rem;
+	}
+}
+
+@media screen and (min-width: 460px) and (max-width: 499.9px) {
+	.bai-hat-moi-main-container {
+		text-align: center;
+		
+	}
+
+	.bai-hat-moi-list {
+		margin-top: 1rem;
+	}
+
+
+	#bhm-the-loai-khac-collapese {
+		margin-top: 0.5rem;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 8.5rem;
+		height: 8.5rem;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 1rem !important;
+		margin-top: 0.75rem;
+	}
+}
+
+@media screen and (min-width: 400px) and (max-width: 459.9px) {
+	.bai-hat-moi-main-container {
+		text-align: center;
+		
+	}
+
+	.bai-hat-moi-list {
+		margin-top: 1rem;
+	}
+
+
+	#bhm-the-loai-khac-collapese {
+		margin-top: 0.5rem;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 10rem;
+		height: 10rem;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 1rem !important;
+		margin-top: 0.75rem;
+	}
+}
+
+@media screen and (min-width: 350px) and (max-width: 399.9px) {
+	.bai-hat-moi-main-container {
+		text-align: center;
+		
+	}
+
+	.bai-hat-moi-list {
+		margin-top: 1rem;
+	}
+
+
+	#bhm-the-loai-khac-collapese {
+		margin-top: 0.5rem;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 9rem;
+		height: 9rem;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 1rem !important;
+		margin-top: 0.75rem;
+	}
+}
+
+@media screen and (min-width: 315px) and (max-width: 349.9px) {
+	.bai-hat-moi-main-container {
+		text-align: center;
+		
+	}
+
+	.bai-hat-moi-list {
+		margin-top: 1rem;
+	}
+
+
+	#bhm-the-loai-khac-collapese {
+		margin-top: 0.5rem;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 8.5rem;
+		height: 8.5rem;
+	}
+
+	.bai-hat-moi-item {
+		margin-right: 1rem !important;
+		margin-top: 0.75rem;
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width: 314.9px) {
+	.bai-hat-moi-main-container {
+		text-align: center;
+		
+	}
+
+	.bai-hat-moi-list {
+		margin-top: 1rem;
+	}
+
+
+	#bhm-the-loai-khac-collapese {
+		margin-top: 0.5rem;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 10.5rem;
+		height: 10.5rem;
+	}
+
+	.bai-hat-moi-item {
+		margin-top: 0.75rem;
+	}
+}
+
+@media screen and (max-width: 199.9px) {
+	.bai-hat-moi-main-container {
+		text-align: center;
+		
+	}
+
+	.bai-hat-moi-list {
+		margin-top: 1rem;
+	}
+
+
+	#bhm-the-loai-khac-collapese {
+		margin-top: 0.5rem;
+	}
+
+	.bai-hat-moi-item-img img {
+		width: 8.5rem;
+		height: 8.5rem;
+	}
+
+	.bai-hat-moi-item {
+		margin-top: 0.75rem;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.9px) {
+	.bai-hat-moi-item-info {
+		margin-top: 0.4rem;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.bai-hat-moi-item-info {
+		margin-top: 0.25rem;
+	}
+}
+
+@media screen and (min-width: 0px) and (max-width: 575.9px) {
+	.bhm-related-bxh-container {
+		margin-left: 0.3rem;
+		margin-right: 0.3rem;
+		margin-top: 1rem;
+	}
+
+	.bhm-related-bxh-item-view {
+		display: inline;
+	}
+
+	.bhm-related-bxh-title span {
+		color: #dc403b;
+	}
+
+	.bhm-related-bxh-item {
+		margin-top: 0.5rem;
+	}
+
+	.bhm-related-bxh-title {
+		margin-left: 0.6rem;
+	}
+
+	.bhm-related-bxh-item-rank {
+		
+		margin-right: 0.5rem;
+	}
+
+	.bhm-related-bxh-item-view {
+	
+		margin-right: 1rem;
+	}
+
+	.bhm-related-bxh-item-view {
+		line-height: 4rem;
+	}
+
+	.bhm-related-bxh-item {
+		margin-top: 0rem;
+	}
+}
+
+@media screen and (max-width: 349.9px) {
+	.bhm-related-bxh-item-view {
+		display: none !important;
+	}
+}
+

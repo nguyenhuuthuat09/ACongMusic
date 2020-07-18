@@ -1,0 +1,30 @@
+#bang-xep-hang-quoc-gia-am button{
+	color: #fff !important;
+	background-color: #119de4 !important;
+}
+
+#bang-xep-hang-quoc-gia-am button:hover {
+	background-color: #2D82D7 !important;
+}
+
+.bang-xep-hang-the-loai-item button {
+	color: #119de4;
+	background-color: #fff;
+	border: 1px solid #d3cfcf;
+}
+
+.bang-xep-hang-the-loai-item button:hover {
+	color: #fff;
+	background-color: #119de4;
+	border: 1px solid #fff;
+}
+
+#bxh-tl-item-active {
+	background-color: #119de4 !important;
+	color: #fff !important;
+	border: 1px solid #fff;
+}
+
+#bxh-tl-item-active:hover {
+	background-color: #058cd0 !important;
+}

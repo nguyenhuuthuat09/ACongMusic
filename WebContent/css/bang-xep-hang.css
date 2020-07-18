@@ -1,0 +1,203 @@
+/** css chung cho các trang bảng xếp hạng */
+
+/* button quốc gia */
+.bang-xep-hang-the-loai button.btn {
+	font-size: 0.9rem;
+	padding: 0.25rem 0.75rem;
+	box-shadow: none;
+}
+
+
+#bang-xep-hang-quoc-gia-vn button {
+	color: #dc3934;
+	background-color: #fff;
+	border: 1px solid #d3cfcf;
+}
+
+#bang-xep-hang-quoc-gia-vn button:hover {
+	color: #fffdf8;
+	background-color: #dc3934;
+	border: 1px solid #fff;
+}
+
+#bang-xep-hang-quoc-gia-am button {
+	color: #2D8AE8;
+	background-color: #fff;
+	border: 1px solid #d3cfcf;
+}
+
+#bang-xep-hang-quoc-gia-am button:hover {
+	color: #fffdf8;
+	background-color: #2D8AE8;
+	border: 1px solid #fff;
+}
+
+#bang-xep-hang-quoc-gia-ca button {
+	color: #00B27A;
+	background-color: #fff;
+	border: 1px solid #d3cfcf;
+}
+
+#bang-xep-hang-quoc-gia-ca button:hover {
+	color: #fffdf8;
+	background-color: #00B27A;
+	border: 1px solid #fff;
+}
+
+/* */
+
+.bang-xep-hang-bai-hat {
+	margin-top: 1rem;
+	border-bottom: 1px solid #cdcdcd;
+}
+
+.bang-xep-hang-bai-hat-thu-hang span h5 {
+	line-height: 5rem;
+}
+
+.bang-xep-hang-bai-hat a {
+	text-decoration: none;
+}
+
+.bang-xep-hang-bai-hat .bang-xep-hang-bai-hat-info .bang-xep-hang-bai-hat-name a {
+	color: #303030;
+}
+
+.bang-xep-hang-bai-hat .bang-xep-hang-bai-hat-info .bang-xep-hang-bai-hat-singer a {
+	color: #7d7d7d;
+}
+
+/* css cho top 1 den top 5, cac top ben duoi se co cung color */
+.bang-xep-hang-bai-hat .bang-xep-hang-bai-hat-thu-hang #bxh-bh-th-1 {
+	color: #e84d00 !important;
+}
+
+.bang-xep-hang-bai-hat .bang-xep-hang-bai-hat-thu-hang #bxh-bh-th-2 {
+	color: #249e74 !important;
+}
+
+.bang-xep-hang-bai-hat .bang-xep-hang-bai-hat-thu-hang #bxh-bh-th-3 {
+	color: #1da0d9 !important;
+}
+
+.bang-xep-hang-bai-hat .bang-xep-hang-bai-hat-thu-hang #bxh-bh-th-4 {
+	color: #e19d29 !important;
+}
+
+.bang-xep-hang-bai-hat .bang-xep-hang-bai-hat-thu-hang #bxh-bh-th-5 {
+	color: #5e799e !important;
+}
+
+.bang-xep-hang-bai-hat .bang-xep-hang-bai-hat-thu-hang span {
+	color: #6d6d6d;
+}
+
+
+/* */
+.bang-xep-hang-bai-hat-info {
+	padding-top: 0.4rem;
+}
+
+.bang-xep-hang-bai-hat-icon-play a {
+	color: #dc3934;
+	line-height: 4rem;
+}
+
+.bang-xep-hang-related-bhm-item {
+	border-bottom: 1px solid #efefef;
+}
+
+.bang-xep-hang-related-bhm-item .bang-xep-hang-related-bhm-item-icon-music {
+	border: 1px solid #cbcbcb;
+	border-radius: 50%;
+	margin-right: 0.5rem;
+	width: 2rem;
+	height: 2rem;
+
+
+}
+
+.bang-xep-hang-related-bhm-item .bang-xep-hang-related-bhm-item-icon-music .fa {
+	font-size: 1rem;
+	padding: 0.4rem 0.5rem;
+	color: #363636;
+}
+
+.bang-xep-hang-related-bhm-item .bang-xep-hang-related-bhm-item-name a {
+	color: #33363a;
+	text-decoration: none;
+}
+
+.bang-xep-hang-related-bhm-item .bang-xep-hang-related-bhm-item-singer a {
+	color: #7d7d7d;
+	text-decoration: none;
+}
+
+
+
+
+#icon-music-1 {
+	color: #d14d28 !important;
+}
+
+#icon-music-2 {
+	color: #2b9464 !important;
+}
+
+#icon-music-3 {
+	color: #389aaf !important;
+}
+
+
+#icon-music-4 {
+	color: #bbab6a !important;
+}
+
+#icon-music-5 {
+	color: #768aa4 !important;
+}
+
+@media screen and (min-width: 576px) and (max-width: 669.9px) {
+	.bang-xep-hang-danh-sach {
+		position: relative;
+		width: 100%;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+
+		-ms-flex: 0 0 60%;
+		flex: 0 0 62%;
+		max-width: 62%;
+	}
+}
+
+@media screen and (max-width: 575.9px) {
+	.bang-xep-hang-the-loai-list-row-2 {
+		margin-top: 0.5rem;
+	}
+}
+
+@media screen and (max-width: 419.9px) {
+	.bang-xep-hang-bai-hat-img a img {
+		width: 4rem;
+		height: 4rem;
+	}
+
+	.bang-xep-hang-bai-hat-thu-hang span h5 {
+		line-height: 4rem;
+	}
+
+	.bang-xep-hang-bai-hat {
+		margin-left: 0.25rem !important;
+	}
+}
+
+@media screen and (max-width: 329.9px) {
+	.bang-xep-hang-danh-sach-tieu-de {
+		padding-left: 0.5rem !important;
+	}
+
+	.bang-xep-hang-bai-hat-icon-play {
+		display: none !important;
+	}
+}
