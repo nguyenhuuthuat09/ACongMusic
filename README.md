@@ -107,4 +107,4 @@ Lưu ý:
 
 * Mình sử dụng CSDL là MY SQL. CSDL mẫu được để ở `/database/acongmusic.sql`. Các bạn có thể dùng file này để sinh ra CSDL mẫu.
 * Các bạn cần sửa lại username và password để connect MY SQL ở *mọi file* trong `src/dao`
-* Các bạn có thể tải các thư viện hỗ trợ (MY SQL Connector, JDBC,...) mà mình sử dụng ở thư mục `/Lib`
+* Các bạn có thể cần sử dụng các thư viện hỗ trợ (MY SQL Connector, JDBC,...) mà mình sử dụng ở thư mục `/Lib`.
