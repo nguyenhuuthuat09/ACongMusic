@@ -7,6 +7,10 @@
 
 # Giới thiệu
 
+<p align="center">
+  <img width="900"  src="https://i.imgur.com/XIXRwXf.png">
+</p>
+
 Đây là mã nguồn của dự án A+ Music của mình. Vì mình chỉ thực hiện A+ Music trong vòng một tháng vừa học vừa làm nên code có thể chưa được đẹp cho lắm. Tuy nhiên A+ Music cũng có khá đầy đủ các chức năng của một website chia sẻ nhạc hoàn chỉnh.
 
 Mình đặt tên trang web là A+ Music để thể hiện mong muốn đem lại những bài hát có chất lượng tốt nhất A+ đến với người nghe. A+ Music có giao diện đẹp mắt, thân thiện và dễ sử dụng với cả người dùng thường và người quản trị trang web. Trang có tính responsive cao, có thể hiển thị tốt, thân thiện với mọi kích cỡ màn hình.
