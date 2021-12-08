@@ -101,7 +101,7 @@ Website sẽ gồm ba phần chính:
     - Nếu kẻ tấn công có upload một số file thực thi script và có thể qua mặt được việc xác thực kiểu file (đuôi file) lên hệ thống rồi gọi chúng theo url trên trình duyệt để thực thi script thì bằng việc thay đổi tên file., kẻ tấn công sẽ khó biết tên file chính xác để có thể gọi file mã độc.
 
 * Mã hóa mật khẩu người dùng:
-  - Để bảo mật thông tin người dùng, mật khẩu người dùng sẽ được mã hóa trước khi thêm vào cơ sở dữ liệu. Em dùng thuật toán Bcrypt để mã hóa mật khẩu thay vì dùng MD5,… vì Brypt mỗi lần chạy sẽ sinh ra một chuỗi mã hóa khác nhau dù chuỗi mật khẩu ban đầu là giống nhau, nên nếu dữ liệu có bị đánh cắp thì kẻ tấn công cũng sẽ tốn nhiều thời gian hơn để giải mã, brute force.
+  - Để bảo mật thông tin người dùng, mật khẩu người dùng sẽ được mã hóa trước khi thêm vào cơ sở dữ liệu. Source code dùng thuật toán Bcrypt để mã hóa mật khẩu thay vì dùng MD5,… vì Brypt mỗi lần chạy sẽ sinh ra một chuỗi mã hóa khác nhau dù chuỗi mật khẩu ban đầu là giống nhau, nên nếu dữ liệu có bị đánh cắp thì kẻ tấn công cũng sẽ tốn nhiều thời gian hơn để giải mã, brute force.
 
 # Hướng dẫn
 
